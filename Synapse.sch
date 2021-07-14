@@ -25,8 +25,6 @@ F 4 "C17950" H 5950 3750 50  0001 C CNN "LCSC"
 	1    5950 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3150 5800 3150
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 USB1
 U 1 1 60F0D514
@@ -46,24 +44,20 @@ Wire Wire Line
 Connection ~ 4650 3100
 Wire Wire Line
 	2700 3100 3000 3100
-Text Label 5800 3150 0    50   ~ 0
+Text Label 5750 2150 2    50   ~ 0
 gnd
-Text Label 5800 3050 0    50   ~ 0
+Text Label 5750 2050 2    50   ~ 0
 vbus
 Text Label 5250 2100 0    50   ~ 0
 sda
-Text Label 5800 2750 0    50   ~ 0
+Text Label 5750 1750 2    50   ~ 0
 sda
 Text Label 5250 1600 0    50   ~ 0
 vbus
 Text Label 5950 3900 3    50   ~ 0
 scl
-Text Label 5800 2650 0    50   ~ 0
+Text Label 5750 1650 2    50   ~ 0
 scl
-Wire Wire Line
-	5800 2650 5950 2650
-Wire Wire Line
-	5800 3050 5950 3050
 Text Label 4750 3100 0    50   ~ 0
 gnd
 Wire Wire Line
@@ -77,8 +71,6 @@ Text Label 3600 2150 0    50   ~ 0
 sda
 Wire Wire Line
 	3600 2100 3600 2200
-Wire Wire Line
-	5950 2750 5800 2750
 Text Label 3600 2350 0    50   ~ 0
 scl
 Wire Wire Line
@@ -101,17 +93,6 @@ F 4 "C165948" H 4650 2200 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	5250 2400 5250 2300
-$Comp
-L YAAJ_BlackPill:WeAct_BlackPill U1
-U 1 1 60EFFF91
-P 6850 2250
-F 0 "U1" H 6850 3415 50  0001 C CNN
-F 1 "WeAct_BlackPill" H 6850 3324 50  0000 C CNN
-F 2 "Footprints:YAAJ_BluePill_2" H 7650 1250 50  0001 C CNN
-F 3 "" H 7650 1250 50  0001 C CNN
-	1    6850 2250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5250 2700
 NoConn ~ 5250 2800
 NoConn ~ 3600 2700
@@ -176,4 +157,35 @@ Text Label 3550 4000 3    50   ~ 0
 gnd
 Text Label 3900 4000 3    50   ~ 0
 gnd
+$Comp
+L YAAJ_BlackPill:WeAct_BlackPill_Short U2
+U 1 1 60F02FCD
+P 6700 1950
+F 0 "U2" H 6700 2565 50  0000 C CNN
+F 1 "WeAct_BlackPill_Short" H 6700 2474 50  0000 C CNN
+F 2 "Footprints:BlackPill_Short" H 7500 1630 50  0001 C CNN
+F 3 "" H 7500 1630 50  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1650 5790 1650
+Connection ~ 5790 1650
+Wire Wire Line
+	5790 1650 5750 1650
+Wire Wire Line
+	5800 1750 5790 1750
+Connection ~ 5790 1750
+Wire Wire Line
+	5790 1750 5750 1750
+Wire Wire Line
+	5800 2050 5790 2050
+Connection ~ 5790 2050
+Wire Wire Line
+	5790 2050 5750 2050
+Wire Wire Line
+	5800 2150 5790 2150
+Connection ~ 5790 2150
+Wire Wire Line
+	5790 2150 5750 2150
 $EndSCHEMATC
