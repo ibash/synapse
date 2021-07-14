@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+"2.7K","R1,R2","Resistor_SMD:R_1206_3216Metric","C17950"
+"200k","R3,R4","Resistor_SMD:R_1206_3216Metric","C17954"
+"WeAct_BlackPill","U1","Footprints:YAAJ_BluePill_2",""
+"USB_C_Receptacle_USB2.0","USB1,USB2","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
