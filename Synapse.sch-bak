@@ -97,7 +97,7 @@ F 0 "USB2" H 4757 3067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 4757 2976 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 4800 2200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4800 2200 50  0001 C CNN
-F 4 "C165948" H 4650 2200 50  0001 C CNN "LSCS"
+F 4 "C165948" H 4650 2200 50  0001 C CNN "LCSC"
 	1    4650 2200
 	1    0    0    -1  
 $EndComp

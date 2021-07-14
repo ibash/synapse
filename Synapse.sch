@@ -50,8 +50,6 @@ Text Label 5800 3150 0    50   ~ 0
 gnd
 Text Label 5800 3050 0    50   ~ 0
 vbus
-Text Label 7750 1450 0    50   ~ 0
-gnd
 Text Label 5250 2100 0    50   ~ 0
 sda
 Text Label 5800 2750 0    50   ~ 0
